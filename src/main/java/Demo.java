@@ -13,6 +13,8 @@ public class Demo {
                 .withExposedPort(1234)
                 .build();
 
+        // now that the container is built, the `with___` methods disappear and runtime methods,
+        //  like `exec` become available
         container.start();
         container.exec("date");
         container.stop();
@@ -21,7 +23,6 @@ public class Demo {
         // Using a plugin
         final Container containerWithPlugin = Container.builder()
                 .withImage("alpine:3.5")
-                .withExposedPort(1234)
                 .withPlugin(new FakeTimePlugin("2010-01-01 00:00:00"))
                 .build();
 
