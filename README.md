@@ -30,7 +30,7 @@ This repository contains a skeleton structure for a new library, Container Core,
 
 ---
 
-##Runtime `Container` vs define-time `ContainerBuilder`
+## Runtime `Container` vs define-time `ContainerBuilder`
 
 Separating out the API for 'actions that are available when a container is being defined' and 'actions that are available when the container' is running is important. It will help reduce the API surface area to only the methods that make sense in a given context. This should improve ease of use and discoverability of the API, as well as resulting in a cleaner codebase.
 
