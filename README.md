@@ -10,7 +10,7 @@ Date: October 2017
 
 This repository contains a skeleton structure for a new library, Container Core, which is documented below as a proposal. 
 
-
+*If you'd like to add a comment or suggest a change, please raise a PR. Any comments can be placed inline or in a `>` block quote, or however is most legible.*
 
 ## Goals
 
